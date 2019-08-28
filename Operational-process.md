@@ -1,26 +1,24 @@
-# --Draft--
-This is draft document, outlining the AWS Ops and 6dg Ops team's processes, and based on MoJ Cloud Platform's methodology. This process is continually reviewed and improved. We welcome all feedback: ideally via the LAA Aws ops and LAA 6dg ops slack channels, or #laa-ops slack channel
+This document, outlines the LAA Ops team's operational processes, and based on MoJ Cloud Platform's methodology. This process is continually reviewed and improved. We welcome all feedback: ideally via the #laa-ops slack channel
 
 ## Operational processes
 
-This is a record of the operational processes that we will use to support our users.
+This is a record of the operational processes that we use to support our users.
 
 ## Hours of support
 
 LAA AWS Ops team currently works - and provides support - from 8am to 6pm, Monday to Friday. During this time we will work on support requests from teams and make sure someone is available to answer questions in [#laa-ops](https://mojdt.slack.com/messages/CEL68S0LD). The team member who responds may be working remotely.
 
-LAA 6dg Ops team provides support from 8am to 6pm Monday to Friday During this time we will work on support requests from teams and make sure someone is available to answer questions in [#laa-6dg-ops] The team member who responds may be working remotely.
-In addition they operate a rota system so that a resource is available to support out of hours from 6pm to late mainly to carry out releases and maintenance that need to be performed out of core business hours.
+In addition the LAA 6DG Ops team operate a rota system so that a resource is available to support out of hours from 6pm to late mainly to carry out releases and maintenance that needs to be performed out of core business hours. It also covers out of hours support for production P1/P2 incidents.
 
 As well as supporting UAT, Pre-Prod/Stage and PROD applications hosted on 6dg infrastructure (CCMS, CIS, MI, CWA, ERIC) LAA 6dg Ops also support the Dev/Test environments for these applications currently hosted in RedCentric.
 
 ## How does the support sub team work
 
-We always have two engineers assigned to support requests at any time. This support sub-team will triage incident requests raised to them in the laa aws ops or laa 6dg ops slack channels.
+We always have two engineers ???? assigned to support requests at any time. This support sub-team will triage incident requests raised to them in the laa ops slack channel.
 
 The key activities for the day are:
 
-#### On starting the day, at least one LAA AWS Ops engineer to:
+#### On starting the day, at least one LAA AWS Ops engineer to:   can we combine the 2?
 
 - [ ] Check the #laa-ops  slack channels for any issues to investigate
 - [ ] Check the board for any user requests that have been raised and not assigned
@@ -125,13 +123,13 @@ We currently publish our postmortem reports on Confluence, and will look for a p
 
 ## How we do on call
 
-The AWS ops team currently has no on-call process, but we have trialled weekend PagerDuty during a major incident. Discussion is ongoing about the possibility of formally implementing weekend on-call duty.
+The AWS ops team currently has no on-call process, but we have trialled weekend PagerDuty during a major incident. Discussion is ongoing about the possibility of formally implementing weekend on-call duty.     *** this is not correct
 
-## Where does our documentation live
+## Where does our documentation live .  ??? is this correct? lets put a link to it
 
 Our documentation lives either in Confluence or here in this repository. This documentation includes architecture, runbooks and common issues.
 
-## Performance and Metrics
+## Performance and Metrics .  - do we?
 
 ### We currently measure:
 *  Time to resolution.
@@ -142,6 +140,9 @@ Our documentation lives either in Confluence or here in this repository. This do
 * System availability
 * Number of incidents and high priority incidents
 * User happiness with support
+
+prioritisation??? increasing priority .  timescales
+
 
 ## Next steps
 
